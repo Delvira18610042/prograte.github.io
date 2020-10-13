@@ -1,40 +1,78 @@
-body {
-  font-family: "Avenir Next";
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">HOME</div>
+      <div class="header-list">
+        <ul>
+          <li>About us</li>
+          <li>Struktur</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </div>
 
-li {
-  list-style: none;
-}
+    <div class="main">
+      <div class="copy-container">
+        <h1>Welcome cat lover<span>.</span></h1>
+        <h2>Rumah Adopsi Kucing</h2>
+      </div>
+      
+      <div class="contents">
+        <h3 class="section-title">Anabul kita :)</h3>
+        <div class="contents-item">
+          <img src="hb">
+          <p>Bunbun</p>
+        </div>
+        <div class="contents-item">
+          <img src="hk">
+          <p>Blacky</p>
+        </div>
+        <div class="contents-item">
+          <img src="telon">
+          <p>Pussy</p>
+        </div>
+        <div class="contents-item">
+          <img src="kuning">
+          <p>Momo</p>
+        </div>
+        <div class="contents-item">
+          <img src="putih">
+          <p>Nana</p>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="section-title">Hubungi kami</h3>
+        <p>Email (Wajib Diisi)</p>
+        <!-- Tambahkan tag <input> -->
+        <input>
+        
+        <p>Pesan (Wajib Diisi)</p>
+        <!-- Tambahkan tag <textarea> --> 
+        <textarea></textarea>
+        
+        <p>*Nama Kucing</p>
+        <!-- Tambahkan tag <input> -->
+        <input class="contact-submit" type="submit" value="Kirim">
+        
+      </div>
+    </div>
 
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-}
-
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
-
-.header-list li {
-  float: left;
-  padding: 33px 20px;
-}
-
-.main {
-  padding: 100px 80px;
-}
-
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.copy-container span {
-  color: #ff4a4a;
-}
+    <div class="footer">
+      <div class="footer-logo">Progate</div>
+      <div class="footer-list">
+        <ul>
+          <li>Tentang</li>
+          <li>Alammat</li>
+          <li>Hubungi Kami</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
